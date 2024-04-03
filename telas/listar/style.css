@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.novo_jogador {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-top: 20px;
+    width: 90%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+td a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+td a:hover {
+    text-decoration: underline;
+}

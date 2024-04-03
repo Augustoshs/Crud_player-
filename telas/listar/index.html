@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Jogadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Jogadores</h2>
+        <div class="table-wrapper">
+            <div class="button">
+                <a class="novo_jogador" href="/telas/criar/">Novo Jogador</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Apelido</th>
+                        <th>Email</th>
+                        <th>Data de Cadastro</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Augusto</td>
+                        <td>Guto</td>
+                        <td>augusto@unicesumar.com.br</td>
+                        <td>05/03/2024</td>
+                        <td>
+                            <a href="/telas/atualizar/">Editar</a>
+                            <a href="/servicos/remover_jogador.php?id=7">Excluir</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>teste</td>
+                        <td>teste</td>
+                        <td>teste@unicesumar.com.br</td>
+                        <td>05/03/2024</td>
+                        <td>
+                            <a href="/telas/atualizar/">Editar</a>
+                            <a href="/servicos/remover_jogador.php?id=7">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Jogador</title>
+</head>
+<body>
+    <h2>Excluir Jogador</h2>
+    <form action="excluir_jogador.php" method="POST">
+        <input type="hidden" name="id" value="ID_DO_JOGADOR">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="NOME_ATUAL" readonly><br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="USERNAME_ATUAL" readonly><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="EMAIL_ATUAL" readonly><br><br>
+        <p>Deseja realmente excluir esses dados?</p>
+        <input type="submit" value="Sim, Excluir">
+    </form>
+</body>
+</html>
